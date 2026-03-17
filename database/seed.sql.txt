@@ -1,0 +1,130 @@
+INSERT INTO Users (GoogleId, Email, Name, CreatedAt) VALUES
+('google_001', 'vuhoangphuong.qbh2@gmail.com', 'Vu Hoang Phuong', '2026-03-16');
+
+INSERT INTO Restaurants (Latitude, Longitude, AudioFile) VALUES
+(10.7568,106.7059,'r1.mp3'),
+(10.7569,106.7060,'r2.mp3'),
+(10.7570,106.7061,'r3.mp3'),
+(10.7571,106.7062,'r4.mp3'),
+(10.7572,106.7063,'r5.mp3'),
+(10.7573,106.7064,'r6.mp3');
+
+INSERT INTO RestaurantTranslations (RestaurantId,LanguageCode,Name,Description) VALUES
+(1,'vi','Ốc Đào','Quán ốc nổi tiếng phố Vĩnh Khánh'),
+(1,'en','Oc Dao Seafood','Famous seafood restaurant on Vinh Khanh street'),
+(1,'zh','Ốc Đào','著名的海鲜餐厅'),
+(1,'es','Oc Dao Mariscos','Restaurante famoso de mariscos'),
+(1,'ko','Ốc Đào','유명한 해산물 식당'),
+
+(2,'vi','Ốc Oanh','Quán ốc đông khách buổi tối'),
+(2,'en','Oc Oanh','Busy seafood street restaurant'),
+(2,'zh','Ốc Oanh','热闹的海鲜餐厅'),
+(2,'es','Oc Oanh','Restaurante de mariscos popular'),
+(2,'ko','Ốc Oanh','인기있는 해산물 식당'),
+
+(3,'vi','Ốc Thảo','Hải sản tươi giá sinh viên'),
+(3,'en','Oc Thao','Affordable fresh seafood'),
+(3,'zh','Ốc Thảo','价格实惠的海鲜'),
+(3,'es','Oc Thao','Mariscos baratos'),
+(3,'ko','Ốc Thảo','저렴한 해산물'),
+
+(4,'vi','Ốc Tô','Ốc ngon nổi tiếng quận 4'),
+(4,'en','Oc To','Famous seafood in District 4'),
+(4,'zh','Ốc Tô','第四郡著名海鲜'),
+(4,'es','Oc To','Mariscos famosos'),
+(4,'ko','Ốc Tô','유명한 해산물'),
+
+(5,'vi','Hải sản 199','Quán hải sản bình dân'),
+(5,'en','Seafood 199','Local seafood restaurant'),
+(5,'zh','Hải sản 199','当地海鲜餐厅'),
+(5,'es','Seafood 199','Restaurante local'),
+(5,'ko','Hải sản 199','현지 해산물 식당'),
+
+(6,'vi','Ốc Nhi','Quán ốc lâu năm'),
+(6,'en','Oc Nhi','Long-time seafood restaurant'),
+(6,'zh','Ốc Nhi','老字号海鲜'),
+(6,'es','Oc Nhi','Restaurante antiguo'),
+(6,'ko','Ốc Nhi','오래된 해산물 식당');
+
+INSERT INTO RestaurantImages (RestaurantId,ImageUrl) VALUES
+(1,'r1_1.jpg'),
+(1,'r1_2.jpg'),
+(2,'r2_1.jpg'),
+(2,'r2_2.jpg'),
+(3,'r3_1.jpg'),
+(3,'r3_2.jpg'),
+(4,'r4_1.jpg'),
+(4,'r4_2.jpg'),
+(5,'r5_1.jpg'),
+(5,'r5_2.jpg'),
+(6,'r6_1.jpg'),
+(6,'r6_2.jpg');
+
+INSERT INTO Menus (RestaurantId,NameVi,NameEn,DescriptionVi,DescriptionEn,Price) VALUES
+(1,'Ốc hương nướng','Grilled Babylonia','Ốc hương nướng bơ','Grilled babylonia with butter',120000),
+(1,'Ốc len xào dừa','Coconut snails','Ốc len xào nước cốt dừa','Snails cooked with coconut',90000),
+(1,'Sò điệp nướng','Grilled scallops','Sò điệp mỡ hành','Scallops with onion oil',80000),
+(1,'Tôm nướng muối ớt','Grilled shrimp','Tôm nướng cay','Spicy grilled shrimp',150000),
+(1,'Cua rang me','Tamarind crab','Cua sốt me','Crab with tamarind sauce',200000),
+(1,'Hàu nướng phô mai','Cheese oysters','Hàu nướng béo','Oysters with cheese',70000),
+(1,'Ốc móng tay xào','Razor clam','Ốc xào tỏi','Garlic razor clams',85000);
+
+INSERT INTO QRCodes (Code,RestaurantId,Location,ScanCount) VALUES
+('QR_RMIT',1,'RMIT',10),
+('QR_HCMUE',2,'HCMUE',5),
+('QR_SGU',3,'SGU',2);
+
+INSERT INTO Coupons (Code,DiscountPercent,ExpiredAt,QRCodeId,MaxUsage) VALUES
+('DISC10',10,'2026-12-31',1,100),
+('DISC15',15,'2026-12-31',2,100),
+('DISC20',20,'2025-01-01',3,50),
+('DISC25',25,'2026-06-01',1,30);
+
+INSERT INTO CouponScans (UserId,CouponId,ScanDate) VALUES
+(1,1,'2026-03-16'),
+(1,3,'2026-03-16');
+
+INSERT INTO Menus (RestaurantId,NameVi,NameEn,DescriptionVi,DescriptionEn,Price) VALUES
+(2,'Ốc hương rang muối','Salt roasted babylonia','Ốc hương rang muối đậm đà','Babylonia snails roasted with salt',110000),
+(2,'Ốc len xào dừa','Coconut snails','Ốc len xào nước cốt dừa','Snails cooked with coconut milk',90000),
+(2,'Sò điệp nướng mỡ hành','Grilled scallops','Sò điệp nướng mỡ hành','Scallops with scallion oil',80000),
+(2,'Tôm nướng muối ớt','Grilled shrimp','Tôm nướng cay','Spicy grilled shrimp',150000),
+(2,'Cua rang me','Tamarind crab','Cua rang sốt me','Crab with tamarind sauce',210000),
+(2,'Hàu nướng phô mai','Cheese oysters','Hàu nướng phô mai béo','Grilled oysters with cheese',70000),
+(2,'Ốc móng tay xào tỏi','Garlic razor clams','Ốc móng tay xào tỏi thơm','Razor clams stir fried with garlic',85000);
+
+INSERT INTO Menus (RestaurantId,NameVi,NameEn,DescriptionVi,DescriptionEn,Price) VALUES
+(3,'Ốc hương nướng bơ','Butter grilled babylonia','Ốc hương nướng bơ thơm','Butter grilled babylonia snails',115000),
+(3,'Ốc len xào dừa','Coconut snails','Ốc len xào dừa béo','Snails with coconut milk',90000),
+(3,'Sò huyết nướng','Grilled blood cockles','Sò huyết nướng mỡ hành','Grilled cockles with scallion oil',85000),
+(3,'Tôm sú nướng','Grilled tiger shrimp','Tôm sú nướng muối ớt','Grilled tiger shrimp with chili salt',150000),
+(3,'Cua rang muối','Salt crab','Cua rang muối đậm đà','Salt roasted crab',200000),
+(3,'Hàu nướng mỡ hành','Grilled oysters','Hàu nướng mỡ hành','Oysters with scallion oil',70000),
+(3,'Ốc móng tay xào rau muống','Razor clams','Ốc móng tay xào rau muống','Razor clams with morning glory',85000);
+
+INSERT INTO Menus (RestaurantId,NameVi,NameEn,DescriptionVi,DescriptionEn,Price) VALUES
+(4,'Ốc hương rang muối','Salt roasted babylonia','Ốc hương rang muối thơm','Salt roasted babylonia snails',115000),
+(4,'Ốc len xào dừa','Coconut snails','Ốc len nấu nước cốt dừa','Snails cooked with coconut milk',90000),
+(4,'Sò lông nướng','Grilled hairy cockles','Sò lông nướng mỡ hành','Grilled cockles with scallion oil',80000),
+(4,'Tôm sú hấp bia','Beer steamed shrimp','Tôm sú hấp bia tươi','Shrimp steamed with beer',140000),
+(4,'Cua rang me','Tamarind crab','Cua rang me chua ngọt','Crab with tamarind sauce',210000),
+(4,'Hàu nướng phô mai','Cheese oysters','Hàu phô mai béo','Cheese grilled oysters',70000),
+(4,'Ốc móng tay xào tỏi','Garlic razor clams','Ốc móng tay xào tỏi thơm','Garlic razor clams',85000);
+
+INSERT INTO Menus (RestaurantId,NameVi,NameEn,DescriptionVi,DescriptionEn,Price) VALUES
+(5,'Ốc hương nướng','Grilled babylonia','Ốc hương nướng bơ','Grilled babylonia with butter',120000),
+(5,'Ốc len xào dừa','Coconut snails','Ốc len xào dừa béo','Snails cooked with coconut milk',90000),
+(5,'Sò điệp nướng','Grilled scallops','Sò điệp nướng mỡ hành','Scallops with scallion oil',80000),
+(5,'Tôm nướng muối ớt','Grilled shrimp','Tôm nướng cay','Spicy grilled shrimp',150000),
+(5,'Cua rang muối','Salt crab','Cua rang muối đậm đà','Salt roasted crab',200000),
+(5,'Hàu nướng mỡ hành','Grilled oysters','Hàu nướng mỡ hành','Oysters with scallion oil',70000),
+(5,'Ốc móng tay xào rau muống','Razor clams','Ốc móng tay xào rau muống','Razor clams with morning glory',85000);
+
+INSERT INTO Menus (RestaurantId,NameVi,NameEn,DescriptionVi,DescriptionEn,Price) VALUES
+(6,'Ốc hương rang muối','Salt roasted babylonia','Ốc hương rang muối','Salt roasted babylonia',115000),
+(6,'Ốc len xào dừa','Coconut snails','Ốc len xào nước cốt dừa','Snails cooked with coconut milk',90000),
+(6,'Sò huyết nướng','Grilled blood cockles','Sò huyết nướng mỡ hành','Grilled cockles with scallion oil',85000),
+(6,'Tôm sú nướng','Grilled tiger shrimp','Tôm sú nướng muối ớt','Grilled tiger shrimp with chili salt',150000),
+(6,'Cua rang me','Tamarind crab','Cua rang me chua ngọt','Crab stir fried with tamarind sauce',210000),
+(6,'Hàu nướng phô mai','Cheese oysters','Hàu phô mai béo','Grilled oysters with cheese',70000),
+(6,'Ốc móng tay xào tỏi','Garlic razor clams','Ốc móng tay xào tỏi thơm','Razor clams with garlic',85000);

@@ -1,0 +1,73 @@
+PRAGMA foreign_keys = ON;
+
+CREATE TABLE Users (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    GoogleId TEXT UNIQUE NOT NULL,
+    Email TEXT,
+    Name TEXT,
+    CreatedAt TEXT
+);
+
+CREATE TABLE Restaurants (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Latitude REAL,
+    Longitude REAL,
+    AudioFile TEXT
+);
+
+CREATE TABLE RestaurantTranslations (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    RestaurantId INTEGER NOT NULL,
+    LanguageCode TEXT NOT NULL,
+    Name TEXT NOT NULL,
+    Description TEXT,
+    UNIQUE(RestaurantId, LanguageCode),
+    FOREIGN KEY (RestaurantId) REFERENCES Restaurants(Id)
+);
+
+CREATE TABLE RestaurantImages (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    RestaurantId INTEGER NOT NULL,
+    ImageUrl TEXT,
+    FOREIGN KEY (RestaurantId) REFERENCES Restaurants(Id)
+);
+
+CREATE TABLE Menus (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    RestaurantId INTEGER NOT NULL,
+    NameVi TEXT,
+    NameEn TEXT,
+    DescriptionVi TEXT,
+    DescriptionEn TEXT,
+    Price REAL,
+    FOREIGN KEY (RestaurantId) REFERENCES Restaurants(Id)
+);
+
+CREATE TABLE QRCodes (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Code TEXT UNIQUE NOT NULL,
+    RestaurantId INTEGER,
+    Location TEXT,
+    ScanCount INTEGER DEFAULT 0,
+    FOREIGN KEY (RestaurantId) REFERENCES Restaurants(Id)
+);
+
+CREATE TABLE Coupons (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Code TEXT UNIQUE NOT NULL,
+    DiscountPercent INTEGER,
+    ExpiredAt TEXT,
+    QRCodeId INTEGER,
+    MaxUsage INTEGER,
+    FOREIGN KEY (QRCodeId) REFERENCES QRCodes(Id)
+);
+
+CREATE TABLE CouponScans (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    UserId INTEGER,
+    CouponId INTEGER,
+    ScanDate TEXT,
+    UNIQUE(UserId, CouponId),
+    FOREIGN KEY (UserId) REFERENCES Users(Id),
+    FOREIGN KEY (CouponId) REFERENCES Coupons(Id)
+);
