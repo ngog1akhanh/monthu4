@@ -1,0 +1,44 @@
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\TourGuideSmart.exe
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\TourGuideSmart.dll.config
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\TourGuideSmart.deps.json
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\TourGuideSmart.runtimeconfig.json
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\TourGuideSmart.dll
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\TourGuideSmart.pdb
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\TourGuideSmart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\TourGuideSmart.AssemblyInfoInputs.cache
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\TourGuideSmart.AssemblyInfo.cs
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\TourGuideSmart.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\TourGuideSmart.dll
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\refint\TourGuideSmart.dll
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\TourGuideSmart.pdb
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\TourGuideSmart.genruntimeconfig.cache
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\ref\TourGuideSmart.dll
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\WelcomeImages\hinhnen (1).jpg
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\WelcomeImages\hinhnen (10).jpg
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\WelcomeImages\hinhnen (11).png
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\WelcomeImages\hinhnen (12).jpg
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\WelcomeImages\hinhnen (13).jpg
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\WelcomeImages\hinhnen (14).jpg
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\WelcomeImages\hinhnen (2).jpg
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\WelcomeImages\hinhnen (3).png
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\WelcomeImages\hinhnen (4).png
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\WelcomeImages\hinhnen (5).png
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\WelcomeImages\hinhnen (6).jpg
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\WelcomeImages\hinhnen (9).jpg
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\WelcomeImages\README.txt
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\TourGuideSmart.FormHome.resources
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\TourGuideSmart.FormPlanner.resources
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\TourGuideSmart.FormTourList.resources
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\TourGuideSmart.FormWelcome.resources
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\TourGuideSmart.csproj.GenerateResource.cache
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Asus\source\Thu4\TourGuideSmart\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\TourGuideSmart.csproj.AssemblyReference.cache
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\TourGuid.CC0D6811.Up2Date
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\TourGuideSmart.FormDetail.resources
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\TourGuideSmart.FormMain.resources
+C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0-windows\TourGuideSmart.FormMap.resources

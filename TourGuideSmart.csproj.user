@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Forms\FormDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormPlanner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormTourList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormWelcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
