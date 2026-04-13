@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/01_Shared/">
+    <Project Path="VinhKhanh.Shared/VinhKhanh.Shared.csproj" />
+  </Folder>
+  <Folder Name="/02_Backend/">
+    <Project Path="VinhKhanh.API/VinhKhanh.API.csproj" />
+  </Folder>
+  <Folder Name="/03_Client/">
+    <Project Path="VinhKhanh.Admin/VinhKhanh.Admin.csproj" />
+    <Project Path="VinhKhanhFoodTour.Mobile/VinhKhanhFoodTour.Mobile.csproj" />
+  </Folder>
+</Solution>

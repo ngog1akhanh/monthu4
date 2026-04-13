@@ -1,4 +1,0 @@
-C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0\TourGuideSmart.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0\TourGuideSmart.AssemblyInfoInputs.cache
-C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0\TourGuideSmart.AssemblyInfo.cs
-C:\Users\Asus\source\Thu4\TourGuideSmart\obj\Debug\net10.0\TourGuideSmart.csproj.CoreCompileInputs.cache
