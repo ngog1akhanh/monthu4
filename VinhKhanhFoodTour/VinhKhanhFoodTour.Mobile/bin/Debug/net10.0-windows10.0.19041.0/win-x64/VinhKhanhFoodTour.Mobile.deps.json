@@ -17,6 +17,8 @@
           "Microsoft.Maui.Controls.Maps": "10.0.51",
           "Newtonsoft.Json": "13.0.4",
           "VinhKhanh.Shared": "1.0.0",
+          "ZXing.Net.Maui": "0.7.4",
+          "ZXing.Net.Maui.Controls": "0.7.4",
           "Microsoft.Maui.Controls.HotReload.Forms": "18.0.0.0",
           "Microsoft.VisualStudio.DesignTools.MobileTapContracts": "18.0.0.0",
           "Microsoft.VisualStudio.DesignTools.TapContract": "18.0.0.0",
@@ -1675,6 +1677,39 @@
           }
         }
       },
+      "ZXing.Net/0.16.11": {
+        "runtime": {
+          "lib/net9.0/zxing.dll": {
+            "assemblyVersion": "0.16.11.0",
+            "fileVersion": "0.16.11.0"
+          }
+        }
+      },
+      "ZXing.Net.Maui/0.7.4": {
+        "dependencies": {
+          "Microsoft.Maui.Controls": "10.0.51",
+          "ZXing.Net": "0.16.11"
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/ZXing.Net.MAUI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ZXing.Net.Maui.Controls/0.7.4": {
+        "dependencies": {
+          "Microsoft.Maui.Controls": "10.0.51",
+          "ZXing.Net": "0.16.11",
+          "ZXing.Net.Maui": "0.7.4"
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/ZXing.Net.MAUI.Controls.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "VinhKhanh.Shared/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.5"
@@ -2459,6 +2494,27 @@
       "sha512": "sha512-fARM2vAZ4ZFAcNFqRLVrjQNjXzk/2yWWXTmTZ/aYUdXJE6ZT2616v3Ojux4cVcKPx2M930sY3plLKeWppGsJaA==",
       "path": "topten.richtextkit/0.4.167",
       "hashPath": "topten.richtextkit.0.4.167.nupkg.sha512"
+    },
+    "ZXing.Net/0.16.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OZfAVu88hl87BffQ+rlWCj/vLvAhhCK4QnFaoveeF/MY8SjHNSYBQ3qyUEWlPKNgBQGh1syXhCDg10vUnCsqkg==",
+      "path": "zxing.net/0.16.11",
+      "hashPath": "zxing.net.0.16.11.nupkg.sha512"
+    },
+    "ZXing.Net.Maui/0.7.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U5YPbXofcbiBT5TsOEVQeOtY7xZ4up+D9iP6mPfprJoZPGQ2sabAL9v3Yk8TxiurxUs5OBeBCfAhKdw9OLHG6w==",
+      "path": "zxing.net.maui/0.7.4",
+      "hashPath": "zxing.net.maui.0.7.4.nupkg.sha512"
+    },
+    "ZXing.Net.Maui.Controls/0.7.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BGH17EDK8zILu3ktDtvsAIbsEsjr2ABA0fMVKy/XObmLrXy7bYPYviUuc8dYlbdMQkEtkLEKr1FnjcP9wRI9iQ==",
+      "path": "zxing.net.maui.controls/0.7.4",
+      "hashPath": "zxing.net.maui.controls.0.7.4.nupkg.sha512"
     },
     "VinhKhanh.Shared/1.0.0": {
       "type": "project",

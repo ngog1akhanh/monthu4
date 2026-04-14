@@ -37,9 +37,24 @@ namespace VinhKhanh.API.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Description_JA")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Description_VI")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description_ZH")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsPlayed")
+                        .HasColumnType("bit");
 
                     b.Property<double>("Latitude")
                         .HasColumnType("float");
@@ -53,6 +68,9 @@ namespace VinhKhanh.API.Migrations
 
                     b.Property<string>("QRCodePath")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Radius")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
 

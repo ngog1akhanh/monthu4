@@ -482,6 +482,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.4, )"
+            },
+            "ZXing.Net.Maui": {
+              "target": "Package",
+              "version": "[0.7.4, )"
+            },
+            "ZXing.Net.Maui.Controls": {
+              "target": "Package",
+              "version": "[0.7.4, )"
             }
           },
           "imports": [
@@ -826,6 +834,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.4, )"
+            },
+            "ZXing.Net.Maui": {
+              "target": "Package",
+              "version": "[0.7.4, )"
+            },
+            "ZXing.Net.Maui.Controls": {
+              "target": "Package",
+              "version": "[0.7.4, )"
             }
           },
           "imports": [
@@ -1170,6 +1186,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.4, )"
+            },
+            "ZXing.Net.Maui": {
+              "target": "Package",
+              "version": "[0.7.4, )"
+            },
+            "ZXing.Net.Maui.Controls": {
+              "target": "Package",
+              "version": "[0.7.4, )"
             }
           },
           "imports": [
@@ -1509,6 +1533,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.4, )"
+            },
+            "ZXing.Net.Maui": {
+              "target": "Package",
+              "version": "[0.7.4, )"
+            },
+            "ZXing.Net.Maui.Controls": {
+              "target": "Package",
+              "version": "[0.7.4, )"
             }
           },
           "imports": [

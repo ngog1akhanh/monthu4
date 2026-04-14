@@ -88,6 +88,9 @@ C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanhFoodTour.Mobile\bin\Debug\
 C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanhFoodTour.Mobile\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.Pkcs.dll
 C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanhFoodTour.Mobile\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanhFoodTour.Mobile\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\Topten.RichTextKit.dll
+C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanhFoodTour.Mobile\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\zxing.dll
+C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanhFoodTour.Mobile\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\ZXing.Net.MAUI.dll
+C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanhFoodTour.Mobile\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\ZXing.Net.MAUI.Controls.dll
 C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanhFoodTour.Mobile\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanhFoodTour.Mobile\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanhFoodTour.Mobile\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\es\Microsoft.CodeAnalysis.resources.dll

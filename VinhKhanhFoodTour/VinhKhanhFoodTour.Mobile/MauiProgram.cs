@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
-using SkiaSharp.Views.Maui.Controls.Hosting; // 1. KHAI BÁO THƯ VIỆN HỌA SĨ
+using SkiaSharp.Views.Maui.Controls.Hosting;
+using ZXing.Net.Maui.Controls;
 
 namespace VinhKhanhFoodTour.Mobile;
 
@@ -10,7 +11,9 @@ public static class MauiProgram
         var builder = MauiApp.CreateBuilder();
         builder
             .UseMauiApp<App>()
-            .UseSkiaSharp() // 2. BẬT CÔNG TẮC ĐỂ VẼ BẢN ĐỒ
+            .UseSkiaSharp()
+            .UseBarcodeReader() // Bật công tắc Camera
+            .UseMauiMaps()      // <--- BẬT CÔNG TẮC BẢN ĐỒ Ở ĐÂY NHÉ
             .ConfigureFonts(fonts =>
             {
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

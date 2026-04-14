@@ -6,13 +6,22 @@
 
     <Grid RowDefinitions="Auto, *">
 
-        <Grid ColumnDefinitions="*, Auto" Margin="20,10,20,10">
+        <Grid ColumnDefinitions="*, Auto, Auto" Margin="20,10,20,10" ColumnSpacing="10">
             <Label Text="Khám Phá Phố Ốc" 
                    FontSize="24" FontAttributes="Bold"
                    TextColor="#f97316" 
                    VerticalOptions="Center" />
 
             <Button Grid.Column="1" 
+                    Text="📷 Quét QR" 
+                    Clicked="OnScanQrClicked"
+                    BackgroundColor="#8b5cf6" 
+                    TextColor="White" 
+                    CornerRadius="8"
+                    FontAttributes="Bold"
+                    Padding="10,5"/>
+
+            <Button Grid.Column="2" 
                     Text="🗺️ Bản Đồ" 
                     Clicked="OnViewMapClicked"
                     BackgroundColor="#3b82f6" 
@@ -22,21 +31,38 @@
                     Padding="10,5"/>
         </Grid>
 
-        <CollectionView x:Name="PoisList" Grid.Row="1" Margin="10">
+        <CollectionView x:Name="PoisList" Grid.Row="1" Margin="10"
+                        SelectionMode="Single"
+                        SelectionChanged="OnPoiSelected">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Border Margin="0,5" Padding="15" Stroke="#eee" BackgroundColor="White">
                         <Border.StrokeShape>
                             <RoundRectangle CornerRadius="10" />
                         </Border.StrokeShape>
-                        <VerticalStackLayout Spacing="5">
-                            <Label Text="{Binding Name}" FontSize="18" FontAttributes="Bold" />
-                            <Label Text="{Binding Description_VI}" FontSize="14" TextColor="Gray" MaxLines="2" />
-                            <Label Text="📍 Xem vị trí" FontSize="12" TextColor="#3b82f6" />
-                        </VerticalStackLayout>
+
+                        <HorizontalStackLayout Spacing="15">
+
+                            <Image Source="{Binding ImageUrl}" 
+                                   WidthRequest="80" HeightRequest="80"
+                                   Aspect="AspectFill">
+                                <Image.Clip>
+                                    <RoundRectangleGeometry CornerRadius="8" Rect="0,0,80,80"/>
+                                </Image.Clip>
+                            </Image>
+
+                            <VerticalStackLayout VerticalOptions="Center" Spacing="5">
+                                <Label Text="{Binding Name}" FontSize="18" FontAttributes="Bold" />
+                                <Label Text="{Binding Description_VI}" FontSize="14" TextColor="Gray" MaxLines="2" />
+                                <Label Text="📍 Xem vị trí" FontSize="12" TextColor="#3b82f6" />
+                            </VerticalStackLayout>
+
+                        </HorizontalStackLayout>
+
                     </Border>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+
     </Grid>
 </ContentPage>

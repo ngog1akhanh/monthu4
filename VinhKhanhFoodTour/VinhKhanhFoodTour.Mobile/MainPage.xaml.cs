@@ -1,5 +1,5 @@
 ﻿using VinhKhanhFoodTour.Mobile.Services;
-using VinhKhanh.Shared.Models; // Khai báo thư viện để dùng được chữ POI
+using VinhKhanh.Shared.Models;
 
 namespace VinhKhanhFoodTour.Mobile;
 
@@ -60,6 +60,47 @@ public partial class MainPage : ContentPage
         {
             await DisplayAlert("Lỗi Chuyển Trang", ex.Message, "OK");
             if (sender is Button btn3) btn3.IsEnabled = true;
+        }
+    }
+
+    // ==============================================================
+    // HÀM MỚI: Xử lý khi người dùng bấm vào một quán ốc trong danh sách
+    // ==============================================================
+    private async void OnPoiSelected(object? sender, SelectionChangedEventArgs e)
+    {
+        // 1. Kiểm tra xem người dùng vừa bấm vào quán nào
+        if (e.CurrentSelection.FirstOrDefault() is POI selectedPoi)
+        {
+            // 2. Chuyển sang trang Chi Tiết, ném dữ liệu của quán đó sang
+            await Navigation.PushAsync(new PoiDetailPage(selectedPoi));
+
+            // 3. Xóa viền highlight để lần sau người dùng quay lại vẫn bấm được tiếp
+            ((CollectionView)sender!).SelectedItem = null;
+        }
+    }
+    private async void OnScanQrClicked(object? sender, EventArgs e)
+    {
+        var status = await Permissions.CheckStatusAsync<Permissions.Camera>();
+        if (status != PermissionStatus.Granted)
+        {
+            status = await Permissions.RequestAsync<Permissions.Camera>();
+        }
+
+        if (status == PermissionStatus.Granted)
+        {
+            // Nếu có dữ liệu, mở trang Camera và truyền dữ liệu sang
+            if (_danhSachQuanOc != null && _danhSachQuanOc.Count > 0)
+            {
+                await Navigation.PushAsync(new ScanQrPage(_danhSachQuanOc));
+            }
+            else
+            {
+                await DisplayAlert("Thông báo", "Vui lòng đợi tải xong dữ liệu rồi hãy quét!", "OK");
+            }
+        }
+        else
+        {
+            await DisplayAlert("Quyền truy cập", "Bạn cần cấp quyền Camera để dùng tính năng này!", "OK");
         }
     }
 }

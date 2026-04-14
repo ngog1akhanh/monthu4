@@ -3,28 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanh.API\\Migrations\\20260413140103_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VinhKhanh.API\\Migrations\\20260413140103_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC83460B-3B2C-2077-8006-CA0D150DE66E}|VinhKhanhFoodTour.Mobile\\VinhKhanhFoodTour.Mobile.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanhfoodtour.mobile\\mappage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC83460B-3B2C-2077-8006-CA0D150DE66E}|VinhKhanhFoodTour.Mobile\\VinhKhanhFoodTour.Mobile.csproj|solutionrelative:vinhkhanhfoodtour.mobile\\mappage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E92BB12-AE7F-4004-988E-33E5B7DE45A5}|VinhKhanh.API\\VinhKhanh.API.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanh.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E92BB12-AE7F-4004-988E-33E5B7DE45A5}|VinhKhanh.API\\VinhKhanh.API.csproj|solutionrelative:vinhkhanh.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC83460B-3B2C-2077-8006-CA0D150DE66E}|VinhKhanhFoodTour.Mobile\\VinhKhanhFoodTour.Mobile.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanhfoodtour.mobile\\mappage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC83460B-3B2C-2077-8006-CA0D150DE66E}|VinhKhanhFoodTour.Mobile\\VinhKhanhFoodTour.Mobile.csproj|solutionrelative:vinhkhanhfoodtour.mobile\\mappage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E92BB12-AE7F-4004-988E-33E5B7DE45A5}|VinhKhanh.API\\VinhKhanh.API.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4E92BB12-AE7F-4004-988E-33E5B7DE45A5}|VinhKhanh.API\\VinhKhanh.API.csproj|solutionrelative:vinhkhanh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{AC83460B-3B2C-2077-8006-CA0D150DE66E}|VinhKhanhFoodTour.Mobile\\VinhKhanhFoodTour.Mobile.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanhfoodtour.mobile\\poidetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC83460B-3B2C-2077-8006-CA0D150DE66E}|VinhKhanhFoodTour.Mobile\\VinhKhanhFoodTour.Mobile.csproj|solutionrelative:vinhkhanhfoodtour.mobile\\poidetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E92BB12-AE7F-4004-988E-33E5B7DE45A5}|VinhKhanh.API\\VinhKhanh.API.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanh.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E92BB12-AE7F-4004-988E-33E5B7DE45A5}|VinhKhanh.API\\VinhKhanh.API.csproj|solutionrelative:vinhkhanh.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC83460B-3B2C-2077-8006-CA0D150DE66E}|VinhKhanhFoodTour.Mobile\\VinhKhanhFoodTour.Mobile.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanhfoodtour.mobile\\poidetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC83460B-3B2C-2077-8006-CA0D150DE66E}|VinhKhanhFoodTour.Mobile\\VinhKhanhFoodTour.Mobile.csproj|solutionrelative:vinhkhanhfoodtour.mobile\\poidetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F70AF-413E-444F-917E-218430EBB4F1}|VinhKhanh.Shared\\VinhKhanh.Shared.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanh.shared\\poi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{731F70AF-413E-444F-917E-218430EBB4F1}|VinhKhanh.Shared\\VinhKhanh.Shared.csproj|solutionrelative:vinhkhanh.shared\\poi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC83460B-3B2C-2077-8006-CA0D150DE66E}|VinhKhanhFoodTour.Mobile\\VinhKhanhFoodTour.Mobile.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanhfoodtour.mobile\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC83460B-3B2C-2077-8006-CA0D150DE66E}|VinhKhanhFoodTour.Mobile\\VinhKhanhFoodTour.Mobile.csproj|solutionrelative:vinhkhanhfoodtour.mobile\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{731F70AF-413E-444F-917E-218430EBB4F1}|VinhKhanh.Shared\\VinhKhanh.Shared.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanh.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{731F70AF-413E-444F-917E-218430EBB4F1}|VinhKhanh.Shared\\VinhKhanh.Shared.csproj|solutionrelative:vinhkhanh.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC83460B-3B2C-2077-8006-CA0D150DE66E}|VinhKhanhFoodTour.Mobile\\VinhKhanhFoodTour.Mobile.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanhfoodtour.mobile\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC83460B-3B2C-2077-8006-CA0D150DE66E}|VinhKhanhFoodTour.Mobile\\VinhKhanhFoodTour.Mobile.csproj|solutionrelative:vinhkhanhfoodtour.mobile\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC83460B-3B2C-2077-8006-CA0D150DE66E}|VinhKhanhFoodTour.Mobile\\VinhKhanhFoodTour.Mobile.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanhfoodtour.mobile\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC83460B-3B2C-2077-8006-CA0D150DE66E}|VinhKhanhFoodTour.Mobile\\VinhKhanhFoodTour.Mobile.csproj|solutionrelative:vinhkhanhfoodtour.mobile\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19365182-426E-4277-BE97-9CB23E8A6A01}|VinhKhanh.API\\VinhKhanh.API.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanh.api\\migrations\\20260413140103_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19365182-426E-4277-BE97-9CB23E8A6A01}|VinhKhanh.API\\VinhKhanh.API.csproj|solutionrelative:vinhkhanh.api\\migrations\\20260413140103_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19365182-426E-4277-BE97-9CB23E8A6A01}|VinhKhanh.API\\VinhKhanh.API.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanh.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19365182-426E-4277-BE97-9CB23E8A6A01}|VinhKhanh.API\\VinhKhanh.API.csproj|solutionrelative:vinhkhanh.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19365182-426E-4277-BE97-9CB23E8A6A01}|VinhKhanh.API\\VinhKhanh.API.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19365182-426E-4277-BE97-9CB23E8A6A01}|VinhKhanh.API\\VinhKhanh.API.csproj|solutionrelative:vinhkhanh.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19365182-426E-4277-BE97-9CB23E8A6A01}|VinhKhanh.API\\VinhKhanh.API.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanh.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19365182-426E-4277-BE97-9CB23E8A6A01}|VinhKhanh.API\\VinhKhanh.API.csproj|solutionrelative:vinhkhanh.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3FF4AD-612D-8E4F-23B6-B101AAEDFE42}|VinhKhanh.Shared\\VinhKhanh.Shared.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanh.shared\\poi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3FF4AD-612D-8E4F-23B6-B101AAEDFE42}|VinhKhanh.Shared\\VinhKhanh.Shared.csproj|solutionrelative:vinhkhanh.shared\\poi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D3FF4AD-612D-8E4F-23B6-B101AAEDFE42}|VinhKhanh.Shared\\VinhKhanh.Shared.csproj|c:\\users\\asus\\source\\final\\vinhkhanhfoodtour\\vinhkhanh.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D3FF4AD-612D-8E4F-23B6-B101AAEDFE42}|VinhKhanh.Shared\\VinhKhanh.Shared.csproj|solutionrelative:vinhkhanh.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +62,100 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanhFoodTour.Mobile\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "VinhKhanhFoodTour.Mobile\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanhFoodTour.Mobile\\MainPage.xaml.cs",
+              "RelativeToolTip": "VinhKhanhFoodTour.Mobile\\MainPage.xaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAcwFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T09:32:36.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanhFoodTour.Mobile\\MainPage.xaml",
+              "RelativeDocumentMoniker": "VinhKhanhFoodTour.Mobile\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanhFoodTour.Mobile\\MainPage.xaml",
+              "RelativeToolTip": "VinhKhanhFoodTour.Mobile\\MainPage.xaml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwCwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T09:32:17.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PoiDetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanhFoodTour.Mobile\\PoiDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "VinhKhanhFoodTour.Mobile\\PoiDetailPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanhFoodTour.Mobile\\PoiDetailPage.xaml.cs",
+              "RelativeToolTip": "VinhKhanhFoodTour.Mobile\\PoiDetailPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T09:27:53.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PoiDetailPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanhFoodTour.Mobile\\PoiDetailPage.xaml",
+              "RelativeDocumentMoniker": "VinhKhanhFoodTour.Mobile\\PoiDetailPage.xaml",
+              "ToolTip": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanhFoodTour.Mobile\\PoiDetailPage.xaml",
+              "RelativeToolTip": "VinhKhanhFoodTour.Mobile\\PoiDetailPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T09:27:18.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MapPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanhFoodTour.Mobile\\MapPage.xaml.cs",
+              "RelativeDocumentMoniker": "VinhKhanhFoodTour.Mobile\\MapPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanhFoodTour.Mobile\\MapPage.xaml.cs",
+              "RelativeToolTip": "VinhKhanhFoodTour.Mobile\\MapPage.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwEUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T14:53:59.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MapPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanhFoodTour.Mobile\\MapPage.xaml",
+              "RelativeDocumentMoniker": "VinhKhanhFoodTour.Mobile\\MapPage.xaml",
+              "ToolTip": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanhFoodTour.Mobile\\MapPage.xaml",
+              "RelativeToolTip": "VinhKhanhFoodTour.Mobile\\MapPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-14T14:53:14.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanhFoodTour.Mobile\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "VinhKhanhFoodTour.Mobile\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanhFoodTour.Mobile\\MauiProgram.cs",
+              "RelativeToolTip": "VinhKhanhFoodTour.Mobile\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T14:49:28.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "20260413140103_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanh.API\\Migrations\\20260413140103_InitialCreate.cs",
               "RelativeDocumentMoniker": "VinhKhanh.API\\Migrations\\20260413140103_InitialCreate.cs",
@@ -46,12 +163,11 @@
               "RelativeToolTip": "VinhKhanh.API\\Migrations\\20260413140103_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T14:01:03.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T14:01:03.636Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanh.API\\Program.cs",
               "RelativeDocumentMoniker": "VinhKhanh.API\\Program.cs",
@@ -59,12 +175,11 @@
               "RelativeToolTip": "VinhKhanh.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T13:49:17.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T13:49:17.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanh.API\\appsettings.json",
               "RelativeDocumentMoniker": "VinhKhanh.API\\appsettings.json",
@@ -72,12 +187,11 @@
               "RelativeToolTip": "VinhKhanh.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-13T13:48:47.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T13:48:47.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanh.API\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "VinhKhanh.API\\Data\\AppDbContext.cs",
@@ -85,12 +199,11 @@
               "RelativeToolTip": "VinhKhanh.API\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T13:46:28.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T13:46:28.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "POI.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanh.Shared\\POI.cs",
               "RelativeDocumentMoniker": "VinhKhanh.Shared\\POI.cs",
@@ -98,12 +211,11 @@
               "RelativeToolTip": "VinhKhanh.Shared\\POI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T13:45:28.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T13:45:28.851Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\Final\\VinhKhanhFoodTour\\VinhKhanh.Shared\\Class1.cs",
               "RelativeDocumentMoniker": "VinhKhanh.Shared\\Class1.cs",
@@ -111,8 +223,7 @@
               "RelativeToolTip": "VinhKhanh.Shared\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T13:38:42.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T13:38:42.69Z"
             }
           ]
         }

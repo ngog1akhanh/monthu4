@@ -12,6 +12,8 @@
   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
   <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-feature android:name="android.hardware.camera" android:required="false" />
   <application android:allowBackup="true" android:icon="@mipmap/appicon" android:supportsRtl="true" android:usesCleartextTraffic="true" android:name="crc64f3ea7207b2854162.MainApplication" android:label="VinhKhanhFoodTour.Mobile" android:debuggable="true" android:extractNativeLibs="true">
     <meta-data android:name="com.google.android.geo.API_KEY" android:value="DÁN_KEY_CỦA_BẠN_Ở_ĐÂY" />
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
