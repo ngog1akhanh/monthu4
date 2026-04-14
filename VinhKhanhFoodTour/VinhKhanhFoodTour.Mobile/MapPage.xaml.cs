@@ -11,57 +11,43 @@ namespace VinhKhanhFoodTour.Mobile;
 public partial class MapPage : ContentPage
 {
     private TourEngine _tourEngine;
-    private List<POI> _danhSachGoc; // LƯU LẠI DANH SÁCH ĐỂ DÙNG KHI NHẤN VÀO GHIM
+    private List<POI> _danhSachGoc;
+
+    // Khai báo bộ đếm nhịp để cập nhật GPS liên tục
+    private IDispatcherTimer _gpsTimer;
 
     public MapPage(List<POI> danhSachQuanOc)
     {
         InitializeComponent();
-        _danhSachGoc = danhSachQuanOc; // Gán dữ liệu vào biến toàn cục
+        _danhSachGoc = danhSachQuanOc;
         _tourEngine = new TourEngine(danhSachQuanOc);
 
-        // 1. Tải lớp nền đường sá thực tế
         MyMap.Map?.Layers.Add(OpenStreetMap.CreateTileLayer());
-
-        // 2. Xóa các dòng chữ INFO và bảng FPS
         MyMap.Map?.Widgets.Clear();
-
-        // 3. Đặt lớp ghim lên bản đồ
         MyMap.Map?.Layers.Add(CreatePoiLayer(danhSachQuanOc));
 
         // ==========================================
-        // ĐĂNG KÝ SỰ KIỆN: LẮNG NGHE KHI BẤM VÀO BẢN ĐỒ
+        // BẬT TÍNH NĂNG CHẤM XANH (BLUE DOT) CỦA MAPSUI
         // ==========================================
+        MyMap.MyLocationEnabled = true;
+
         MyMap.Info += OnMapInfo;
     }
 
-    // ==========================================
-    // HÀM XỬ LÝ KHI NGƯỜI DÙNG BẤM VÀO 1 CÁI GHIM
-    // ==========================================
-    // ==========================================
-    // HÀM XỬ LÝ KHI NGƯỜI DÙNG BẤM VÀO 1 CÁI GHIM
-    // ==========================================
     private void OnMapInfo(object sender, Mapsui.MapInfoEventArgs e)
     {
-        // Phòng hờ nếu bản đồ chưa kịp load
         if (MyMap.Map == null) return;
 
-        // ĐÃ SỬA Ở ĐÂY: Dùng hàm GetMapInfo() để tự lấy thông tin ghim ở vị trí vừa chạm
         var mapInfo = e.GetMapInfo(MyMap.Map.Layers);
-
-        // Lấy cái ghim ra
         var feature = mapInfo?.Feature;
 
-        // Kiểm tra xem ghim đó có mang thẻ "POI_ID" không
         if (feature != null && feature["POI_ID"] != null)
         {
             int id = (int)feature["POI_ID"];
-
-            // Lục tìm trong danh sách gốc xem ID này là của quán ốc nào
             var poi = _danhSachGoc.FirstOrDefault(p => p.Id == id);
 
             if (poi != null)
             {
-                // Chuyển sang trang chi tiết của quán đó
                 MainThread.BeginInvokeOnMainThread(async () => {
                     await Navigation.PushAsync(new PoiDetailPage(poi));
                 });
@@ -82,6 +68,9 @@ public partial class MapPage : ContentPage
         if (status == PermissionStatus.Granted)
         {
             _tourEngine.StartTour();
+
+            // BẮT ĐẦU VẼ CHẤM XANH KHI ĐÃ CÓ QUYỀN GPS
+            StartTrackingBlueDot();
         }
 
         if (_tourEngine != null)
@@ -100,6 +89,39 @@ public partial class MapPage : ContentPage
     {
         base.OnDisappearing();
         _tourEngine.StopTour();
+
+        // TẮT QUÉT GPS KHI THOÁT TRANG ĐỂ ĐỠ TỐT PIN
+        _gpsTimer?.Stop();
+    }
+
+    // ==========================================
+    // RADAR QUÉT VÀ VẼ CHẤM XANH LÊN BẢN ĐỒ
+    // ==========================================
+    private void StartTrackingBlueDot()
+    {
+        // Tạo một vòng lặp chạy ngầm mỗi 3 giây
+        _gpsTimer = Dispatcher.CreateTimer();
+        _gpsTimer.Interval = TimeSpan.FromSeconds(3);
+        _gpsTimer.Tick += async (s, e) =>
+        {
+            try
+            {
+                // Gọi API của điện thoại để xin tọa độ hiện tại
+                var request = new GeolocationRequest(GeolocationAccuracy.Best, TimeSpan.FromSeconds(2));
+                var location = await Geolocation.GetLocationAsync(request);
+
+                if (location != null)
+                {
+                    // Đưa tọa độ vào Mapsui để nó tự cập nhật vị trí Chấm Xanh
+                    MyMap.MyLocationLayer.UpdateMyLocation(new Mapsui.UI.Maui.Position(location.Latitude, location.Longitude));
+                }
+            }
+            catch
+            {
+                // Mất sóng GPS hoặc vào tầng hầm thì bỏ qua, đợi 3 giây sau quét lại
+            }
+        };
+        _gpsTimer.Start();
     }
 
     private ILayer CreatePoiLayer(List<POI> pois)
@@ -114,21 +136,17 @@ public partial class MapPage : ContentPage
             var feature = new PointFeature(mPoint)
             {
                 ["Name"] = poi.Name,
-                // GẮN THẺ ID VÀO GHIM ĐỂ LÚC BẤM CÒN BIẾT ĐƯỜNG MỞ TRANG CHI TIẾT
                 ["POI_ID"] = poi.Id
             };
             features.Add(feature);
         }
 
-        // ==========================================
-        // ĐỔI HÌNH DÁNG GHIM THÀNH GIỌT NƯỚC
-        // ==========================================
         var pinStyle = new SymbolStyle
         {
-            SymbolType = SymbolType.Triangle, // Dùng hình tam giác
-            SymbolRotation = 180, // Lật ngược tam giác lại thành cái mũi nhọn chỉ xuống đất
-            SymbolScale = 0.8, // Kích thước vừa phải
-            Fill = new Mapsui.Styles.Brush(Mapsui.Styles.Color.Orange), // Chuyển sang màu Cam cho giống Google Maps
+            SymbolType = SymbolType.Triangle,
+            SymbolRotation = 180,
+            SymbolScale = 0.8,
+            Fill = new Mapsui.Styles.Brush(Mapsui.Styles.Color.Orange),
             Outline = new Pen(Mapsui.Styles.Color.White, 2)
         };
 

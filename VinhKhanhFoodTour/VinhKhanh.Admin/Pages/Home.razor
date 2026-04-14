@@ -1,7 +1,50 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<MudText Typo="Typo.h4" Class="mb-4">Bảng Điều Khiển (Dashboard)</MudText>
 
-<h1>Hello, world!</h1>
+<MudGrid>
+    <MudItem xs="12" sm="4">
+        <MudPaper Class="pa-4" Style="background-color: #3b82f6; color: white;">
+            <MudText Typo="Typo.subtitle2">Số người đang sử dụng App</MudText>
+            <MudText Typo="Typo.h3">142</MudText>
+        </MudPaper>
+    </MudItem>
+    <MudItem xs="12" sm="4">
+        <MudPaper Class="pa-4" Style="background-color: #10b981; color: white;">
+            <MudText Typo="Typo.subtitle2">Tổng số Quán Ốc (POI)</MudText>
+            <MudText Typo="Typo.h3">45</MudText>
+        </MudPaper>
+    </MudItem>
+    <MudItem xs="12" sm="4">
+        <MudPaper Class="pa-4" Style="background-color: #f59e0b; color: white;">
+            <MudText Typo="Typo.subtitle2">Quán đang chờ duyệt</MudText>
+            <MudText Typo="Typo.h3">3</MudText>
+        </MudPaper>
+    </MudItem>
 
-Welcome to your new app.
+    <MudItem xs="12" md="8">
+        <MudPaper Class="pa-4">
+            <MudText Typo="Typo.h6" Class="mb-2">Lượt quét QR 7 ngày qua</MudText>
+            <MudChart T="double" ChartType="ChartType.Bar" ChartSeries="@_qrSeries" XAxisLabels="@_xAxisLabels" Width="100%" Height="300px"></MudChart>
+        </MudPaper>
+    </MudItem>
+
+    <MudItem xs="12" md="4">
+        <MudPaper Class="pa-4">
+            <MudText Typo="Typo.h6" Class="mb-2">Top quán được ghé nhiều</MudText>
+            <MudChart T="double" ChartType="ChartType.Pie" InputData="@_pieData" InputLabels="@_pieLabels" Width="100%" Height="300px" />
+        </MudPaper>
+    </MudItem>
+</MudGrid>
+
+@code {
+    // ĐÃ SỬA: Khai báo rõ List chứa kiểu số thực <double>
+    public List<ChartSeries<double>> _qrSeries = new List<ChartSeries<double>>()
+    {
+        new ChartSeries<double>() { Name = "Lượt quét", Data = new double[] { 40, 20, 25, 27, 46, 60, 48 } }
+    };
+    public string[] _xAxisLabels = { "T2", "T3", "T4", "T5", "T6", "T7", "CN" };
+
+    public double[] _pieData = { 45, 25, 20, 10 };
+    public string[] _pieLabels = { "Ốc Oanh", "Ốc Thảo", "Ốc Vũ", "Khác" };
+}

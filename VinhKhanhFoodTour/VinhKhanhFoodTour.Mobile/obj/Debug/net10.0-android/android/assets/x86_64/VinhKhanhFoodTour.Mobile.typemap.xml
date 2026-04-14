@@ -1,4 +1,4 @@
-<api type="debug" assembly-name="VinhKhanhFoodTour.Mobile" mvid="a0066bdf859d4e13bedde3687b6c6ef8">
+<api type="debug" assembly-name="VinhKhanhFoodTour.Mobile" mvid="3a5e6fe78eb84e4ab173e7804e02bc99">
   <java-to-managed>
     <entry java-name="crc64f3ea7207b2854162/MainActivity" managed-name="VinhKhanhFoodTour.Mobile.MainActivity, VinhKhanhFoodTour.Mobile" managed-type-token-id="33554443" />
     <entry java-name="crc64f3ea7207b2854162/MainApplication" managed-name="VinhKhanhFoodTour.Mobile.MainApplication, VinhKhanhFoodTour.Mobile" managed-type-token-id="33554444" />

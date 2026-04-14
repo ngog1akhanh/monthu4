@@ -46,6 +46,7 @@ wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 wwwroot\sample-data\weather.json
+wwwroot\index.html
 C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanh.Admin\wwwroot\css\app.css
 C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanh.Admin\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanh.Admin\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -92,3 +93,4 @@ C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanh.Admin\wwwroot\lib\bootstr
 C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanh.Admin\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanh.Admin\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanh.Admin\wwwroot\sample-data\weather.json
+C:\Users\Asus\source\Final\VinhKhanhFoodTour\VinhKhanh.Admin\wwwroot\index.html
